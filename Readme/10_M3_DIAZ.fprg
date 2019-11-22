@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-22 05:35:27 PM"/>
+        <attribute name="created" value="QWNlcjtBQ0VSMTsyMDE5LTExLTIyOzA1OjMxOjI3IFBNOzE5OTE="/>
+        <attribute name="edited" value="QWNlcjtBQ0VSMTsyMDE5LTExLTIyOzA1OjM1OjI3IFBNOzE7MjEwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Number" type="Integer" array="False" size=""/>
+            <declare name="Odd0rEven" type="Integer" array="False" size=""/>
+            <output expression="&quot;Hi, Kindly enter your number&quot;" newline="True"/>
+            <input variable="Number"/>
+            <assign variable="OddorEven" expression="Number % 2"/>
+            <if expression="OddorEven=0">
+                <then>
+                    <output expression="Number &amp; &quot;is EVEN&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="Number &amp;&quot;is ODD&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

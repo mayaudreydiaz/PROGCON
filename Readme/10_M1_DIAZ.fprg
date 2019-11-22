@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-22 05:05:15 PM"/>
+        <attribute name="created" value="QWNlcjtBQ0VSMTsyMDE5LTExLTIyOzA0OjU3OjA0IFBNOzE5OTM="/>
+        <attribute name="edited" value="QWNlcjtBQ0VSMTsyMDE5LTExLTIyOzA1OjA1OjE1IFBNOzE7MjA5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Number1" type="Integer" array="False" size=""/>
+            <declare name="Number2" type="Integer" array="False" size=""/>
+            <declare name="Add" type="Real" array="False" size=""/>
+            <input variable="Number1"/>
+            <input variable="Number2"/>
+            <assign variable="Add" expression="Numer1+Number2"/>
+            <output expression="Add" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
